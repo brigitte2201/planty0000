@@ -1,0 +1,459 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: https://studionumerik.fr/
+Description: Twenty Twenty Child Theme
+Author: Studio Numerik
+Author URL: https://studionumerik.fr/
+Template: twentytwenty
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URL: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* Placer votre CSS ci-dessous */
+/* X-Small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+@media (max-width:576px) {
+
+/***********************
+****** header planty****
+***********************/
+a{
+   color:black !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+    font-weight: 700 !important;
+}
+main{
+    width: 95%;
+    margin:0px auto;
+}
+#site-header{
+    width: 95%;
+    height: 30px;
+    margin: 0px auto;
+    }
+
+#site-header .site-logo img{
+    width: 120px;
+    height: 15px;
+    margin-top: -25px;
+}
+/*.toggle-text{
+    display: none;
+}
+
+#site-header .nav-toggle{
+    right: 50px !important;
+}*/
+
+.modal-menu li .ancestor-wrapper a{
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black !important;
+    display: inline-block;
+    
+}
+
+#boutonNav{
+    width: 50px;
+    height: 30px;
+    top:0px;
+    right: 0%;
+    position: absolute;
+    background: #DC9F96;
+    text-align: center;
+}
+
+#boutonNav:hover{
+    background-color: #c02e44;
+}
+
+.modal-menu li .ancestor-wrapper a:hover{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 0px;
+    text-decoration: none; 
+}
+
+#boutonNav a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 6px;
+    left: 15px;
+    position: absolute;
+    color: white !important;
+    text-decoration: none;
+}
+
+#boutonNav-texte span{
+display: none;
+}
+
+/**********************************************
+**********************Footer Planty************
+***********************************************/
+#site-footer{
+    width: 95%;
+    height: 30px;
+    margin: 0px auto !important;
+    }
+
+footer p{
+    top:-933px;
+    left:-71px;
+    position:sticky;
+}
+p{
+    font-family: syne;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+}
+/*Small devices (landscape phones, 576px and up*/
+@media (min-width:576px) {
+ a{
+    color: black !important;
+ }
+ a:hover{
+    text-decoration: none !important;
+    font-weight: 700 !important;
+ }
+
+ main{
+    width: 95%;
+    margin: 0px auto;
+ }
+
+ /***********************************************
+ ******************header planty*****************
+ ***********************************************/
+
+#site-header{
+    width: 95%;
+    height: 30px;
+    margin: 0px auto;
+}
+
+#site-header .site-logo img{
+    width: 120px;
+    height: 15px;
+    margin-top: -25px;
+}
+/*.toggle-text{
+    display: none;
+}
+
+#site-header .nav-toggle{
+    right: 50px !important;
+}*/
+
+.modal-menu li .ancestor-wrapper a{
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black !important;
+    display: inline-block;
+}
+
+.modal-menu li.ancestor-wrapper a:hover{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 0px;
+    text-decoration: none; 
+}
+
+#boutonNav{
+    width: 50px;
+    height: 30px;
+    top:0px;
+    right: 0%;
+    position: absolute;
+    background: #DC9F96;
+    text-align: center;
+}
+
+#boutonNav:hover{
+    background-color: #c02e44;
+}
+
+#boutonNav a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 6px;
+    left: 15px;
+    position: absolute;
+    color: white !important;
+    text-decoration: none;
+}
+
+#boutonNav-texte span{
+display: none;
+}
+
+/****************************************************
+**********************Footerplanty*******************
+****************************************************/
+
+#site-footer{
+    width: 95%;
+    height: 30px;
+    margin: 0px auto!important;
+}
+
+footer p{
+    top: -933px;
+    left:-71px;
+    position:sticky;
+}
+
+p{
+    font-family:syne;
+    font-size:14px;
+    font-weight:200;
+    line-height:15px;
+    letter-spacing:0em;
+    text-align:center;
+}
+
+}
+
+/*Medium devices(tablets,768px and up*/
+@media (min-width:700px){
+
+#site-header .site-logo img{
+    margin-top: -30px;
+}
+
+#site-header .site-description{
+    width: 72px;
+    height: 14px;
+    top: 0px;
+    left: 160px;
+    position: absolute;
+    margin-left: 10px;
+    font-family: Baskerville;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:#326238;
+}
+}
+/*Large devices (desktops,1000px and up*/
+@media (min-width:1000px){
+
+/***********************
+****** header planty****
+***********************/
+main{
+    width: 992px;
+}
+    #site-header{
+        width: 992px;
+        height: 70px;
+        margin: 0px auto;
+    }
+
+    #site-header .site-logo img{
+        width: 180px;
+        height: 16px;
+        margin-top: 0px;
+    }
+    
+
+    #site-header .header-navigation-wrapper{
+        margin-right: 180px;
+    }
+    #boutonNav-Icon i{
+        display:none;
+    }
+    #boutonNav-texte span{
+        display: block;
+        }
+    .primary-menu li a{
+        font-family: Syne;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 0px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:black !important;
+        display: inline-block;
+        
+    }
+
+    .primary-menu li a:hover{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 0px;
+        text-decoration: none;
+        
+    }
+
+    #site-header .site-description{
+        top: 33px;
+        left: 247px;
+        position:sticky;    
+    }
+
+    #boutonNav{
+        width: 180px;
+        height: 70px;
+        top:0px;
+        left: 812px;       
+    }
+
+    #boutonNav a{
+        display: inline-block;
+        font-family: Syne;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        width: 114px;
+        height: 19px;
+        top: 30px;
+        left: 30px;
+        position: absolute;
+        color: white;
+        text-decoration: none;
+    }
+
+    /******************************************************************
+    *************************Footer planty*****************************
+    ******************************************************************/
+
+    #site-footer{
+        width:1000px;
+        height:40px;
+    }
+
+}
+
+/*X-Large devices(large desktops, 1200px and up*/
+@media (min-width:1200px){
+
+
+    /***********************
+****** header planty****
+***********************/
+main{
+    width: 1200px;
+}
+
+    #site-header{
+        width: 1200px;
+        height: 80px;
+    }
+
+    #site-header .site-logo img{
+        width: 201px;
+        height: 19px;
+        top: 31px;
+        left: 10px;
+        position:sticky;
+    }
+
+    #site-header .header-navigation-wrapper{
+        margin-right: 236px;
+    }
+
+    .primary-menu li a{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        
+    }
+
+    .primary-menu li a:hover{
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 15.6px;
+        
+    }
+
+    #boutonNav{
+        width: 236px;
+        height: 80px;
+        left:964px;        
+    }
+
+    #boutonNav a{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        left: 61px;
+    }
+
+    /*********************************************
+    *********************Footer planty************
+    *********************************************/
+    #site-footer{
+        width: 1200px;
+        height: 60px;
+    }
+
+    p{
+        font-family: Syne;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up*/
+@media (min-width:1400px){
+/*************************************************************************
+************************************header planty*************************
+*************************************************************************/
+main{
+    width: 1440px;
+}
+
+#site-header{
+    width: 1440px;
+}
+
+#boutonNav{
+    left: 1204px;
+}
+}
+
+/***********************
+****** Footer planty****
+***********************/  
+ 
+#site-footer{
+    width: 1440px;
+  
+}
+/*formulaire**************************************************************/
+
+
+.partie_gauche_form{
+    border-right: thin solid white;
+}
+.partie_gauche_form, .partie_droite_form{
+    padding-right:30px;
+}
+/*input .btncommande{
+    margin-top: 50px!important;  
+}*/
+
+
