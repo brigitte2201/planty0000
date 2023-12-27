@@ -22,16 +22,16 @@
 
 		<?php wp_head(); ?>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<!--<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Syne&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">-->
 
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body id="planty-theme"<?php body_class(); ?>>
 
 		<?php
 		wp_body_open();

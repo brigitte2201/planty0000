@@ -12,7 +12,33 @@ License URL: https://www.gnu.org/licenses/gpl-2.0.html
 /* Placer votre CSS ci-dessous */
 /* X-Small devices (portrait phones, less than 576px)*/
 /* No media query for `xs` since this is the default in Bootstrap*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+#planty-theme{
+    font-family: Syne !important;
+}
+
+#planty-theme a{
+    color:black!important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color:black !important;
+}
+/*********wp-header********/
+
+
+#site-header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 30px;
+}
 @media (max-width:576px) {
+
 
 /***********************
 ****** header planty****
